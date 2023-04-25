@@ -390,3 +390,20 @@ h3{
 .sub_col_section_4_card p{
   margin-top: 20px;
 }
+
+/* -----SECTION 5----- */
+
+.container_section_5{
+  width: 60%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.col_section_5 h2{
+  font-size: 45px;
+  margin-bottom: 70px;
+}
+
+.col_section_5 a{
+  color: blue;
+}
