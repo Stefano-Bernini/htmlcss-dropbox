@@ -17,6 +17,7 @@ header{
     left: 0;
     z-index: 10;
     background-color: white;
+    box-shadow: 0 0 10px 2px grey;
 }
 /* size container header */
  .container_header{
@@ -135,7 +136,7 @@ header{
 }
 
 .col_section_2_title_radio h2{
-  font-size: 52px;
+  font-size: 45px;
 }
 
 #radio_1{
@@ -353,4 +354,39 @@ h3{
 
 .col_section_3_left img{
   max-width: 100%;
+}
+
+/* -----SECTION 4----- */
+
+.container_section_4{
+  width: 60%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.col_section_4_title h2{
+  font-size: 45px;
+}
+
+.col_section_4_cards{
+  margin-top: 20px;
+}
+
+.sub_row_section_4_cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sub_col_section_4_card{
+  width: calc(100% / 3 - 20px);
+  margin: 30px 10px;
+}
+
+.sub_col_section_4_card img{
+  max-width: 100%;
+}
+
+.sub_col_section_4_card p{
+  margin-top: 20px;
 }
