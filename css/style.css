@@ -513,3 +513,32 @@ h3{
   margin-left: 250px;
   vertical-align: top;
 }
+
+/* -----SECTION 8----- */
+
+.section_8{
+  margin: 200px 0 200px 0;
+}
+
+.container_section_8{
+  width: 60%;
+  margin: auto;
+}
+
+.col_section_8 h2{
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+
+.col_section_8 p{
+  display: inline-block;
+  margin: 40px 0 40px 0;
+}
+
+.col_section_8 span{
+  margin-left: 500px;
+}
+
+.col_section_8 hr{
+  border: 1px solid lightgray;
+}
