@@ -407,3 +407,109 @@ h3{
 .col_section_5 a{
   color: blue;
 }
+
+/* -----SECTION 6----- */
+/* .section_6{
+  margin-top: 200px;
+}
+.container_section_6{
+  width: 100%;
+}
+
+.row_section_6{
+  width: 100%;
+  display: flex;
+}
+
+.col_section_6_left, .col_section_6_center, .col_section_6_right{
+  width: calc(100% / 3);
+  height: calc(99.1vw / 3);
+}
+
+.col_section_6_center{
+  background-color: rgba(245,245,245,1);
+}
+
+.sub_col_50{
+  width: 50%;
+  height: 50%;
+}
+
+.designit{
+  background-color: rgba(162,211,155,1);
+  display: flex;
+  justify-content: center;
+}
+
+.asu{
+  background-color: rgba(97,8,43,1);
+}
+
+.florida{
+  background-color: rgba(0,147,206,1);
+}
+
+.topps{
+  background-color: rgba(255,28,28,1);
+}
+
+.bicycle{
+  background-color: rgba(213,0,31,1);
+}
+
+.hearts{
+  background-color: rgba(180,208,231,1);
+}
+
+.lonely{
+  background-color: rgba(13,36,129,1);
+}
+
+.clear{
+  background-color: rgba(255,216,48,1);
+}
+
+.flex_wrap{
+  flex-wrap: wrap;
+}
+
+.height_100{
+  height: 100%;
+}
+
+.designit img{
+  max-width: 50%;
+} */
+
+/* -----SECTION 7----- */
+
+.section_7{
+  margin-top: 200px;
+  background-color: rgba(180,208,231,1);
+}
+
+.container_section_7{
+  width: 60%;
+  margin: auto;
+}
+
+.col_section_7{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.col_section_7 h2{
+  font-size: 45px;
+  display: inline-block;
+  color: rgba(97,8,43,1);
+}
+
+.col_section_7 button{
+  font-size: 18px;
+  padding: 10px 35px 10px 35px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 250px;
+  vertical-align: top;
+}
