@@ -295,7 +295,7 @@ h3{
 }
 
 .sub_col_section_2_team{
-  margin-top: 35px;
+  margin: 35px 0 35px 35px;
 }
 
 .sub_col_section_2_team button{
@@ -314,4 +314,43 @@ h3{
 
 #sub_col_section_2_solution{
   margin-top: 50px;
+}
+
+/* -----SECTION 3----- */
+.container_section_3{
+  width: 60%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.row_section_3{
+  display: flex;
+}
+
+.col_section_3_left{
+  max-width: 60%;
+}
+
+.col_section_3_right{
+  max-width: 40%;
+  padding: 90px 50px 0 50px;
+}
+
+.col_section_3_right p{
+  margin: 20px 0 30px 0;
+  font-style: initial;
+  line-height: 20px;
+}
+
+.col_section_3_right button{
+  font-size: 18px;
+  padding: 13px;
+  border: none;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.col_section_3_left img{
+  max-width: 100%;
 }
