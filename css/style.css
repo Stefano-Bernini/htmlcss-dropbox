@@ -542,3 +542,52 @@ h3{
 .col_section_8 hr{
   border: 1px solid lightgray;
 }
+
+/* -----FOOTER----- */
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+.col_footer{
+  padding: 100px 0 60px 0;
+}
+
+.col_footer ul{
+  list-style: none;
+  display: inline-block;
+}
+
+.ul_footer_margin_left{
+  margin-left: 150px;
+}
+
+.col_footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.container_footer{
+  width: 70%;
+  margin: auto;
+}
+
+.ul_footer_row_1{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.ul_footer_row_2, .ul_footer_row_3, .ul_footer_row_4, .ul_footer_row_5, .ul_footer_row_6{
+  font-size: 15px;
+  margin: 10px 0 10px 0;
+}
+
+.hr_footer{
+  margin-top: 100px;
+  width: 10%;
+}
+
+footer p{
+  margin-top: 60px;
+}
