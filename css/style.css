@@ -50,23 +50,21 @@ header{
  .margin_img_header{
    margin: 20px 20px; 
  }
-/* size, color and style button */
- .button_header{
-   height: 30px;
-   width: 65px;
-   color: white;
-   padding: 3px 10px;
-   background-color: rgba(0,97,255,1);
-   border: none;
-   cursor: pointer;
- }
 /* margin  log in */
  #log_in{
    margin-right: 0;
  }
 /* margin begins */
  #begins{
-   margin-left: 20px;
+  background-color: rgba(0,97,255,1);
+  margin-left: 20px;
+  height: 30px;
+  width: 65px;
+  color: white;
+  padding: 7px 0 0 12px;
+  background-color: rgba(0,97,255,1);
+  border: none;
+  cursor: pointer;
  }
 
  /* -----MAIN----- */
@@ -99,16 +97,21 @@ header{
 
 .sub_col_section_1_left p{
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
-.sub_col_section_1_left button{
+#main_section_1_p_margin_top{
+  margin-top: 30px;
+}
+
+#main_section_1_free_try{
   font-size: 20px;
   padding: 13px;
-  margin: 30px 0 30px 0;
   border: none;
   background-color: rgba(0,97,255,1);
   color: white;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .sub_col_section_1_right{
@@ -219,16 +222,23 @@ h3{
 
 .list_row_7{
   margin-top: 50px;
+  position: relative;
 }
 
-.list_row_7 button{
-  width: 100%;
+.list_row_7 a{
   font-size: 18px;
   padding: 13px;
   border: none;
   background-color: rgba(0,97,255,1);
+  background-size: cover;
   color: white;
   cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  text-align: center;
 }
 
 .list_row_4::before{
@@ -267,7 +277,11 @@ h3{
   width: 17%;
 }
 
-.list_row_8, .list_row_9, .list_row_10{
+.list_row_8{
+  margin-top: 80px;
+}
+
+.list_row_9, .list_row_10{
   margin-top: 30px;
 }
 
@@ -299,13 +313,14 @@ h3{
   margin: 35px 0 35px 35px;
 }
 
-.sub_col_section_2_team button{
+.sub_col_section_2_team a{
   font-size: 18px;
   padding: 13px;
   border: none;
   background-color: rgba(0,97,255,1);
   color: white;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .sub_col_section_2_team h3{
@@ -338,18 +353,20 @@ h3{
 }
 
 .col_section_3_right p{
-  margin: 20px 0 30px 0;
+  margin: 20px 0 50px 0;
   font-style: initial;
   line-height: 20px;
 }
 
-.col_section_3_right button{
+.col_section_3_right a{
   font-size: 18px;
   padding: 13px;
   border: none;
+  color: black;
   background-color: white;
   border: 1px solid black;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .col_section_3_left img{
@@ -587,14 +604,16 @@ h3{
   color: rgba(97,8,43,1);
 }
 
-.col_section_7 button{
+.col_section_7 a{
   font-size: 18px;
   padding: 10px 35px 10px 35px;
   border: none;
   background-color: white;
+  color: black;
   cursor: pointer;
   margin-left: 250px;
   vertical-align: top;
+  text-decoration: none;
 }
 
 /* -----SECTION 8----- */
